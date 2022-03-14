@@ -24,11 +24,11 @@ This git repository contains files related to the computational part of the arti
 
 **• Cased19.gp** :  The code used in Theorem 3.8, in PARI/GP.
 
-**• coef5.txt** :  A file to run Cased19.gp
+**• coef5.txt** :  A file to run Cased19.gp (an output of Cased19.mg).
 
-**• coef11.txt** :  A file to run Cased19.gp
+**• coef11.txt** :  A file to run Cased19.gp (an output of Cased19.mg).
 
-**• pol5.txt** : A file to run Cased19.gp
+**• pol5.txt** : A file to run Cased19.gp (an output of Cased19.mg).
 
 **• table.gp** :  The code used to compute Table 2.1, in PARI/GP.
 
