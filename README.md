@@ -8,7 +8,7 @@ This git repository contains files related to the computational part of the arti
 
 **• ApCoefficients.mg** : To compute coefficients of newforms, in Magma.
 
-**• Ellenberg.gp** : To compute Ellenberg's bound for Proposition 3.2, in PARI/GP.
+**• Ellenberg.gp** : To compute Ellenberg's bounds for Proposition 3.2, in PARI/GP.
 
 **• Cased5.mg** :  The code used in Theorem 3.3, in Magma.
 
