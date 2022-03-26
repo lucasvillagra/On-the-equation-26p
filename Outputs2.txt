@@ -1,0 +1,780 @@
+\\==================================OUTPUTS==========================================
+
+
+
+\\==================================CASE 5===========================================
+
+Loading "Cased5.mg"
+Loading "mazur.mg"
+Case d=5:
+Forms in Space 2^4*3^2*5^2:
+There are 15 forms, 7 of them having complex multiplication.
+Forms with CM: [ 1, 2, 3, 4, 7, 9, 10 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 2, 5 @}
+{@ 2, 5 @}
+Cannot discard the form with parameter:  8
+{ 0 }
+Cannot discard the form with parameter:  11
+{ 0 }
+Cannot discard the form with parameter:  12
+{ 0 }
+Cannot discard the form with parameter:  13
+{ 0 }
+{@ 2, 5 @}
+{@ 2, 5 @}
+Cannot discard the forms in the first space with parameter:  [ 8, 11, 12, 13 ]
+Forms in Space 2^4*3^3*5^2:
+There are 24 forms, 6 of them having complex multiplication.
+Forms with CM: [ 1, 2, 3, 4, 5, 6 ]
+Primes obtained via Mazur's trick for non-CM forms:
+Cannot discard the form with parameter:  7
+{ 0 }
+Cannot discard the form with parameter:  8
+{ 0 }
+Cannot discard the form with parameter:  9
+{ 0 }
+Cannot discard the form with parameter:  10
+{ 0 }
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2, 3, 5 @}
+{@ 2, 5 @}
+{@ 2, 3, 5 @}
+{@ 2, 3, 5 @}
+{@ 2, 3, 5 @}
+{@ 2, 3, 7 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 5 @}
+Cannot discard the forms in the second space with parameter:  [ 7, 8, 9, 10 ]
+It was found 89184 curves (over the Number Field with defining polynomial x^2 +
+    5 over the Rational Field
+) with good reduction out of primes dividing 2,3 or 5.
+List of curves corresponding to the newform 8 of the Space 2^4*3^2*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (855360*a + 388800)*x + (212284800*a +
+        919123200) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (1071360*a + 7430400)*x +
+        (-3290112000*a + 3789849600) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (855360*a + 388800)*x + (-212284800*a
+        - 919123200) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (1071360*a + 7430400)*x +
+        (3290112000*a - 3789849600) over Number Field with defining polynomial
+        x^2 + 5 over the Rational Field
+] 
+List of curves corresponding to the newform 11 of the Space 2^4*3^2*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (-349920*a + 2843100)*x + (716461200*a
+        + 724334400) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-5209920*a + 1846800)*x +
+        (-3167942400*a + 12151555200) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-349920*a + 2843100)*x +
+        (-716461200*a - 724334400) over Number Field with defining polynomial
+        x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-5209920*a + 1846800)*x +
+        (3167942400*a - 12151555200) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field
+] 
+List of curves corresponding to the newform 12 of the Space 2^4*3^2*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (-172800*a - 418500)*x + (-67662000*a
+        - 64368000) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-820800*a - 1350000)*x + (574560000*a
+        + 282096000) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-172800*a - 418500)*x + (67662000*a +
+        64368000) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-820800*a - 1350000)*x +
+        (-574560000*a - 282096000) over Number Field with defining polynomial
+        x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (1555200*a - 486000)*x + (653184000*a
+        + 1737936000) over Number Field with defining polynomial x^2 + 5 over
+    the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-172800*a - 54000)*x + (-24192000*a +
+        64368000) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (1555200*a - 486000)*x + (-653184000*a
+        - 1737936000) over Number Field with defining polynomial x^2 + 5 over
+    the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-172800*a - 54000)*x + (24192000*a -
+        64368000) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field
+] 
+List of curves corresponding to the newform 13 of the Space 2^4*3^2*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (100932480*a + 122860800)*x +
+        (-55781913600*a - 1362341203200) over Number Field with defining
+    polynomial x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-11214720*a + 13651200)*x +
+        (2065996800*a - 50457081600) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (100932480*a + 122860800)*x +
+        (55781913600*a + 1362341203200) over Number Field with defining
+    polynomial x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-11214720*a + 13651200)*x +
+        (-2065996800*a + 50457081600) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field
+] 
+List of curves corresponding to the newform 7 of the Space 2^4*3^3*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (-2138400*a + 3402000)*x +
+        (-408240000*a - 5534568000) over Number Field with defining polynomial
+        x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-6998400*a + 17496000)*x +
+        (-8817984000*a - 40310784000) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-2138400*a + 3402000)*x +
+        (408240000*a + 5534568000) over Number Field with defining polynomial
+        x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-6998400*a + 17496000)*x +
+        (8817984000*a + 40310784000) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field
+] 
+List of curves corresponding to the newform 8 of the Space 2^4*3^3*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (-58320*a - 72900)*x + (-10206000*a +
+        583200) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (8398080*a - 10497600)*x +
+        (17635968000*a + 1007769600) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-58320*a - 72900)*x + (10206000*a -
+        583200) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (8398080*a - 10497600)*x +
+        (-17635968000*a - 1007769600) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field
+] 
+List of curves corresponding to the newform 9 of the Space 2^4*3^3*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (2138400*a + 3402000)*x + (408240000*a
+        - 5534568000) over Number Field with defining polynomial x^2 + 5 over
+    the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (6998400*a + 17496000)*x +
+        (8817984000*a - 40310784000) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (2138400*a + 3402000)*x +
+        (-408240000*a + 5534568000) over Number Field with defining polynomial
+        x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (6998400*a + 17496000)*x +
+        (-8817984000*a + 40310784000) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field
+] 
+List of curves corresponding to the newform 10 of the Space 2^4*3^3*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (58320*a - 72900)*x + (10206000*a +
+        583200) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-8398080*a - 10497600)*x +
+        (-17635968000*a + 1007769600) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (58320*a - 72900)*x + (-10206000*a -
+        583200) over Number Field with defining polynomial x^2 + 5 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-8398080*a - 10497600)*x +
+        (17635968000*a - 1007769600) over Number Field with defining polynomial
+    x^2 + 5 over the Rational Field
+] 
+Loading "ApCoefficients.mg"
+List of forms of the Space 2^4*3^2*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 8 ]
+List of forms of the Space 2^4*3^2*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 11 ]
+List of forms of the Space 2^4*3^2*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 12 ]
+List of forms of the Space 2^4*3^2*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 13 ]
+List of forms of the Space 2^4*3^3*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 7 ]
+List of forms of the Space 2^4*3^3*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 8 ]
+List of forms of the Space 2^4*3^3*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 9 ]
+List of forms of the Space 2^4*3^3*5^2 with Fourier coefficients a_p, with p in
+[ 11, 13, 29, 41, 61, 89 ]
+that match with the twist of each correspondent elliptic curve: [ 10 ]
+
+
+
+
+\\==================================CASE 7===========================================
+
+> load "Cased7.mg";
+Loading "Cased7.mg"
+Loading "mazur.mg"
+Case d=7:
+Forms in Space 2*3*7^2:
+There are 2 forms, 0 of them having complex multiplication.
+Forms with CM: []
+Primes obtained via Mazur's trick for non-CM forms:
+Cannot discard the form with parameter:  1
+{ 0 }
+{@ 2, 7 @}
+Cannot discard the forms in the first space with parameter:  [ 1 ]
+Forms in Space 2^2*3*7^2:
+There are 4 forms, 1 of them having complex multiplication.
+Forms with CM: [ 1 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 7 @}
+Cannot discard the forms in the second space with parameter:  []
+Forms in Space 2^2*3^3*7^2:
+There are 7 forms, 3 of them having complex multiplication.
+Forms with CM: [ 1, 2, 3 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 2, 3, 5 @}
+{@ 3, 7 @}
+{@ 2, 7 @}
+{@ 2, 7 @}
+Cannot discard the forms in the third space with parameter:  []
+Forms in Space 2*3^3*7^2:
+There are 6 forms, 0 of them having complex multiplication.
+Forms with CM: []
+Primes obtained via Mazur's trick for non-CM forms:
+Cannot discard the form with parameter:  1
+{ 0 }
+Cannot discard the form with parameter:  2
+{ 0 }
+Cannot discard the form with parameter:  3
+{ 0 }
+{@ 2, 3 @}
+{@ 2, 7 @}
+{@ 2, 7 @}
+Cannot discard the forms in the fourth space with parameter:  [ 1, 2, 3 ]
+True minimum 245228989175492518501601247449473518214148598958153579404694129384\
+6878934752540864176941927864531439826014856493684297652082443606017487420052003\
+3636231193797572838551866190216908219209377883130909687808 found
+(113824117720792180128279670131578384795652711428376625141923045144757270563688\
+9536050974315940641973992057664690149715902225466377516423499206967430560016000\
+81865042738739941224774095297341055700041728 was asserted)
+It was found 98944 curves (over the Number Field with defining polynomial x^2 +
+    7 over the Rational Field
+) with good reduction out of primes dividing 2,3 or 7.
+List of curves corresponding to the newform 1 of the Space 2*3*7^2
+[ 
+    Elliptic Curve defined by y^2 - x*y + 1/2*(-a + 1)*y = x^3 + 2*x^2 + (950*a
+        - 44)*x + (4593*a + 100179) over Number Field with defining polynomial
+        x^2 + 7 over the Rational Field,
+    Elliptic Curve defined by y^2 - x*y + 1/2*(-a + 3)*y = x^3 - x^2 +
+    1/2*(-17105*a - 825)*x + 1/2*(213807*a - 5411277) over Number Field with
+    defining polynomial x^2 + 7 over the Rational Field,
+    Elliptic Curve defined by y^2 + x*y + 1/2*(-3*a - 5)*y = x^3 - 4*x^2 + (6*a
+        - 40)*x + (13*a - 57) over Number Field with defining polynomial x^2 + 7
+    over the Rational Field,
+    Elliptic Curve defined by y^2 + 3*x*y + (3*a - 15)*y = x^3 + 1/2*(-3*a -
+        21)*x^2 + 1/2*(-87*a - 747)*x + 1/2*(1855*a + 8051) over Number Field
+    with defining polynomial x^2 + 7 over the Rational Field
+] 
+List of curves corresponding to the newform 1 of the Space 2*3^3*7^2
+[ 
+    Elliptic Curve defined by y^2 - x*y + 1/2*(-a - 1)*y = x^3 - x^2 + (-58*a -
+        46)*x + 1/2*(-443*a + 529) over Number Field with defining polynomial
+        x^2 + 7 over the Rational Field,
+    Elliptic Curve defined by y^2 + x*y + 1/2*(a - 1)*y = x^3 + 2*x^2 +
+    1/2*(1039*a - 823)*x + (-5977*a - 7131) over Number Field with defining
+    polynomial x^2 + 7 over the Rational Field
+] 
+List of curves corresponding to the newform 2 of the Space 2*3^3*7^2
+[ 
+    Elliptic Curve defined by y^2 + x*y + 1/2*(-a + 1)*y = x^3 - x^2 + (16*a -
+        46)*x + 1/2*(121*a - 157) over Number Field with defining polynomial x^2
+        + 7 over the Rational Field,
+    Elliptic Curve defined by y^2 + 3*x*y + 1/2*(5*a - 39)*y = x^3 - 18*x^2 +
+    1/2*(-291*a - 603)*x + (2505*a + 4381) over Number Field with defining
+    polynomial x^2 + 7 over the Rational Field
+] 
+List of curves corresponding to the newform 3 of the Space 2*3^3*7^2
+[ 
+    Elliptic Curve defined by y^2 - x*y + 1/2*(a - 1)*y = x^3 - x^2 + (-26*a -
+        46)*x + 1/2*(-201*a - 59) over Number Field with defining polynomial x^2
+        + 7 over the Rational Field,
+    Elliptic Curve defined by y^2 + (-a - 2)*x*y + (a + 1)*y = x^3 + 1/2*(-5*a +
+        3)*x^2 + (237*a - 421)*x + (-2628*a + 1840) over Number Field with
+    defining polynomial x^2 + 7 over the Rational Field
+] 
+Loading "ApCoefficients.mg"
+List of forms of the Space 2*3*7^2 with Fourier coefficients a_p, with p in [ 5,
+11, 13, 17, 19, 23, 29, 37, 53 ]
+that match with the twist of each correspondent elliptic curve: [ 1 ]
+List of forms of the Space 2*3^3*7^2 with Fourier coefficients a_p, with p in [
+5, 11, 13, 17, 19, 23, 29, 37, 53 ]
+that match with the twist of each correspondent elliptic curve: [ 1 ]
+List of forms of the Space 2*3^3*7^2 with Fourier coefficients a_p, with p in [
+5, 11, 13, 17, 19, 23, 29, 37, 53 ]
+that match with the twist of each correspondent elliptic curve: [ 2 ]
+List of forms of the Space 2*3^3*7^2 with Fourier coefficients a_p, with p in [
+5, 11, 13, 17, 19, 23, 29, 37, 53 ]
+that match with the twist of each correspondent elliptic curve: [ 3 ]
+
+
+
+
+\\==================================CASE 11===========================================
+
+> load "Cased11.mg";
+Loading "Cased11.mg"
+Loading "mazur.mg"
+Case d=11:
+Forms in Space 2^2*3^3*11^2:
+There are 43 forms, 11 of them having complex multiplication.
+Forms with CM: [ 2, 3, 4, 8, 9, 10, 11, 12, 13, 18, 19 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 13, 2, 3 @}
+{@ 2 @}
+{@ 2 @}
+{@ 13, 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 11, 2, 3 @}
+{@ 3 @}
+{@ 3 @}
+{@ 11, 2, 3 @}
+{@ 3 @}
+{@ 3 @}
+{@ 2, 3, 7 @}
+{@ 2, 3, 5 @}
+{@ 2, 3, 5 @}
+{@ 2, 3, 5 @}
+{@ 3, 17, 19 @}
+{@ 3, 17, 19 @}
+{@ @}
+{@ 11, 5 @}
+{@ @}
+{@ 11, 5 @}
+{@ @}
+{@ 11 @}
+{@ @}
+{@ 11 @}
+Cannot discard the forms in the first space with parameter:  []
+Forms in Space 2^2*3^2*11^2:
+There are 26 forms, 6 of them having complex multiplication.
+Forms with CM: [ 1, 2, 3, 13, 14, 19 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2 @}
+{@ 2 @}
+Cannot discard the form with parameter:  15
+{ 0 }
+{@ 11 @}
+{@ 11 @}
+{@ 11 @}
+Cannot discard the form with parameter:  20
+{ 0 }
+{@ 11 @}
+{@ 11 @}
+{@ 11 @}
+{@ 2, 3, 5, 7 @}
+{@ 11, 5 @}
+{@ 11, 5 @}
+Cannot discard the forms in the second space with parameter:  [ 15, 20 ]
+True minimum 622534583661949797350153563475459084390297787915070793449571640715\
+6993208859372956479246936830753472814826008286858895895540045436094044100026490\
+20992105168955271870726663178290164106277729389957349376 found
+(194612091669561207880341457027520536093328067310960359481229660957752717841733\
+0995649164287237293286575307982241493762910206641051626284994607173305423520514\
+44997963083326814564524701698833781102739456 was asserted)
+It was found 74464 curves (over the Number Field with defining polynomial x^2 +
+    11 over the Rational Field
+) with good reduction out of primes dividing 2,3 or 11.
+List of curves corresponding to the newform 15 of the Space 2^2*3^2*11^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + 1/2*(a + 11)*x^2 + 1/2*(1177*a -
+        25795)*x + (-41228*a + 526955) over K,
+    Elliptic Curve defined by y^2 = x^3 + (-2*a - 4)*x^2 + (-948*a - 816)*x +
+        (21312*a - 35028) over K,
+    Elliptic Curve defined by y^2 = x^3 + (10*a + 65)*x^2 + (580*a - 2185)*x +
+        (-8310*a - 4101) over K,
+    Elliptic Curve defined by y^2 = x^3 + (-a - 5)*x^2 + (-3810*a - 3222)*x +
+        (163456*a - 241640) over K
+] 
+List of curves corresponding to the newform 20 of the Space 2^2*3^2*11^2
+[ 
+    Elliptic Curve defined by y^2 + (3*a + 21)*x*y + 18*a*y = x^3 + (-29*a -
+        85)*x^2 + (-267*a + 375)*x + (208*a - 157) over K,
+    Elliptic Curve defined by y^2 + (-4*a - 2)*x*y + (-a - 13)*y = x^3 +
+    1/2*(-9*a + 87)*x^2 + 1/2*(63*a - 387)*x + (-465*a + 832) over K
+] 
+Loading "ApCoefficients.mg"
+List of forms of the Space 2^2*3^2*11^2 with Fourier coefficients a_p, with p in
+[ 5, 7, 13, 17, 19, 23, 31 ]
+that match with the twist of each correspondent elliptic curve: [ 15 ]
+List of forms of the Space 2^2*3^2*11^2 with Fourier coefficients a_p, with p in
+[ 5, 7, 13, 17, 19, 23, 31 ]
+that match with the twist of each correspondent elliptic curve: [ 20 ]
+
+
+
+
+
+
+\\==================================CASE 13===========================================
+
+> load "Cased13.mg";
+Loading "Cased13.mg"
+Case d=13:
+Loading "mazur.mg"
+Forms in Space 2^4*3*13^2:
+There are 29 forms, 7 of them having complex multiplication.
+Forms with CM: [ 1, 2, 3, 4, 5, 8, 9 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 2, 13 @}
+{@ 2, 13 @}
+{@ 11, 2 @}
+{@ 11, 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 11, 2 @}
+{@ 2 @}
+{@ 11, 2 @}
+{@ 2, 5, 7 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2, 5 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2, 13 @}
+{@ 2, 13 @}
+{@ 13 @}
+{@ 2, 13, 7 @}
+Forms in Space 2^4*3^3*13^2:
+There are 68 forms, 14 of them having complex multiplication.
+Forms with CM: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 11, 2 @}
+{@ 11, 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2, 3, 5 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 5, 7 @}
+{@ 5, 7 @}
+{@ @}
+{@ @}
+{@ @}
+{@ @}
+{@ 2 @}
+{@ 2 @}
+{@ @}
+{@ 2 @}
+{@ @}
+{@ 2 @}
+{@ 2 @}
+{@ 2, 7 @}
+{@ 2, 7, 29 @}
+{@ 2, 7 @}
+{@ 2, 7, 29 @}
+{@ 2, 13 @}
+{@ @}
+{@ 2 @}
+{@ 2, 13, 3, 5, 7 @}
+{@ 2, 13, 3, 5, 7 @}
+{@ 2, 7 @}
+{@ 2, 7 @}
+{@ 2, 13 @}
+{@ 13, 7 @}
+{@ 13, 7 @}
+{@ 13 @}
+{@ 13 @}
+{@ 13, 7 @}
+{@ 13, 7 @}
+
+
+
+\\==================================CASE 15===========================================
+
+
+> load "Cased15.mg";
+Loading "Cased15.mg"
+Loading "mazur.mg"
+Case d=15:
+Forms in Space 2*3^5*5^2:
+There are 21 forms
+Primes obtained via Mazur's trick for all forms:
+Cannot discard the form with parameter:  1
+{ 0 }
+Cannot discard the form with parameter:  2
+{ 0 }
+Cannot discard the form with parameter:  3
+{ 0 }
+Cannot discard the form with parameter:  4
+{ 0 }
+Cannot discard the form with parameter:  5
+{ 0 }
+Cannot discard the form with parameter:  6
+{ 0 }
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3, 7 @}
+{@ 2, 3, 7 @}
+{@ 11, 3, 7 @}
+{@ 3, 5 @}
+{@ 3, 5 @}
+{@ 3 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 2, 5 @}
+{@ 3 @}
+{@ 3 @}
+{@ 3 @}
+{@ 71 @}
+Cannot discard the forms in the first space with parameter:  [ 1, 2, 3, 4, 5, 6] 
+Forms in Space 2^2*3^5*5^2:
+There are 33 forms
+The first form has complex multiplication:
+The form 1 has CM: true -3
+The forms 2,...,12 also have complex multiplication by -3 (see the paper)
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 2, 3 @}
+{@ 11, 2, 3 @}
+{@ 2, 3 @}
+{@ 11, 2, 3 @}
+{@ 2, 3, 7 @}
+{@ 2, 3, 7 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3, 5 @}
+{@ 11, 3, 19, 5, 2 @}
+{@ 2, 3 @}
+{@ 11, 3, 19, 5, 2 @}
+{@ 2, 3, 7 @}
+{@ 2, 3, 7 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3 @}
+{@ 2, 3, 5, 7 @}
+{@ 2, 3 @}
+{@ 11, 3, 5 @}
+{@ 11, 3, 19, 5, 2 @}
+{@ 11, 3, 7, 17, 2, 5 @}
+{@ 11, 3, 7, 17, 2, 5 @}
+{@ 11, 3, 7, 17, 2, 5 @}
+{@ 11, 3, 7, 5, 2, 19, 13 @}
+{@ 11, 3, 7, 17, 2, 5 @}
+Cannot discard the forms in the second space with parameter:  []
+
+It was found 111264 curves (over the Number Field with defining polynomial x^2 +
+    15 over the Rational Field
+) with good reduction out of primes dividing 2,3 or 5.
+List of curves corresponding to the newform 1 of the Space 2*3^5*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (-40500*a - 759375)*x + (21262500*a +
+        247556250) over Number Field with defining polynomial x^2 + 15 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (40500*a - 759375)*x + (-21262500*a +
+        247556250) over Number Field with defining polynomial x^2 + 15 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + 1/2*(1042875*a + 4708125)*x +
+        (254390625*a - 1839965625) over Number Field with defining polynomial
+        x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + 1/2*(-1042875*a + 4708125)*x +
+        (-254390625*a - 1839965625) over Number Field with defining polynomial
+        x^2 + 15 over the Rational Field
+] 
+List of curves corresponding to the newform 2 of the Space 2*3^5*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + 1/2*(-26325*a + 334125)*x + (6773625*a
+        + 11451375) over Number Field with defining polynomial x^2 + 15 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + 1/2*(26325*a + 334125)*x + (-6773625*a
+        + 11451375) over Number Field with defining polynomial x^2 + 15 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (8100*a - 30375)*x + (-850500*a +
+        1397250) over Number Field with defining polynomial x^2 + 15 over the
+    Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-8100*a - 30375)*x + (850500*a +
+        1397250) over Number Field with defining polynomial x^2 + 15 over the
+    Rational Field
+] 
+List of curves corresponding to the newform 3 of the Space 2*3^5*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (642816000*a - 808704000)*x +
+        (-11314888704000*a - 6075482112000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-642816000*a - 808704000)*x +
+        (11314888704000*a - 6075482112000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-1845504000*a + 7651584000)*x +
+        (53118664704000*a + 288000147456000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (1845504000*a + 7651584000)*x +
+        (-53118664704000*a + 288000147456000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field
+] 
+List of curves corresponding to the newform 4 of the Space 2*3^5*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (53053583523840000*a -
+        81537269760000000)*x + (-9126914080773242880000000*a -
+        7089923654783336448000000) over Number Field with defining polynomial
+        x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-53053583523840000*a -
+        81537269760000000)*x + (9126914080773242880000000*a -
+        7089923654783336448000000) over Number Field with defining polynomial
+        x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-14153511075840000*a -
+        7032589516800000)*x + (950514264475435008000000*a -
+        2599390417438900224000000) over Number Field with defining polynomial
+        x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (14153511075840000*a -
+        7032589516800000)*x + (-950514264475435008000000*a -
+        2599390417438900224000000) over Number Field with defining polynomial
+        x^2 + 15 over the Rational Field
+] 
+List of curves corresponding to the newform 5 of the Space 2*3^5*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (599757579878400*a +
+        5895909015552000)*x + (-38134851128958910464000*a +
+        101610972210215780352000) over Number Field with defining polynomial x^2
+        + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-599757579878400*a +
+        5895909015552000)*x + (38134851128958910464000*a +
+        101610972210215780352000) over Number Field with defining polynomial x^2
+        + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (53050186137600*a -
+        1570866462720000)*x + (895706607717974016000*a -
+        22138976524340035584000) over Number Field with defining polynomial x^2
+        + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-53050186137600*a -
+        1570866462720000)*x + (-895706607717974016000*a -
+        22138976524340035584000) over Number Field with defining polynomial x^2
+        + 15 over the Rational Field
+] 
+List of curves corresponding to the newform 6 of the Space 2*3^5*5^2
+[ 
+    Elliptic Curve defined by y^2 = x^3 + (-63504000*a - 5462640000)*x +
+        (-4743360000000*a - 152344281600000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (63504000*a - 5462640000)*x +
+        (4743360000000*a - 152344281600000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (-156816000*a + 1224720000)*x +
+        (3978201600000*a + 11424499200000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field,
+    Elliptic Curve defined by y^2 = x^3 + (156816000*a + 1224720000)*x +
+        (-3978201600000*a + 11424499200000) over Number Field with defining
+    polynomial x^2 + 15 over the Rational Field
+] 
+Loading "ApCoefficients.mg"
+List of forms of the Space 2*3^5*5^2 with Fourier coefficients a_p, with p in [
+7, 11, 13, 19, 31, 37, 41 ]
+that match with the twist of each correspondent elliptic curve: [ 1 ]
+List of forms of the Space 2*3^5*5^2 with Fourier coefficients a_p, with p in [
+7, 11, 13, 19, 31, 37, 41 ]
+that match with the twist of each correspondent elliptic curve: [ 2 ]
+List of forms of the Space 2*3^5*5^2 with Fourier coefficients a_p, with p in [
+7, 11, 13, 19, 31, 37, 41 ]
+that match with the twist of each correspondent elliptic curve: [ 3 ]
+List of forms of the Space 2*3^5*5^2 with Fourier coefficients a_p, with p in [
+7, 11, 13, 19, 31, 37, 41 ]
+that match with the twist of each correspondent elliptic curve: [ 4 ]
+List of forms of the Space 2*3^5*5^2 with Fourier coefficients a_p, with p in [
+7, 11, 13, 19, 31, 37, 41 ]
+that match with the twist of each correspondent elliptic curve: [ 5 ]
+List of forms of the Space 2*3^5*5^2 with Fourier coefficients a_p, with p in [
+7, 11, 13, 19, 31, 37, 41 ]
+that match with the twist of each correspondent elliptic curve: [ 6 ]
+
+
+
+\\==================================CASE 19 MAGMA=====================================
+
+
+> load "Cased19.mg";
+Loading "Cased19.mg"
+Loading "mazur.mg"
+Case d=19:
+Forms in Space 2^2*3*19^2:
+There are 10 forms, 3 of them having complex multiplication.
+Forms with CM: [ 1, 2, 7 ]
+Primes obtained via Mazur's trick for non-CM forms:
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2 @}
+{@ 2, 19 @}
+{@ 3 @}
+{@ 2, 19 @}
+Forms in Space 2^2*3^3*19^2:
+The forms 1, 2 and 7 have CM:
+HasCM(new[ 1 ]));
+true -3
+HasCM(new[ 2 ]));
+true -3
+HasCM(new[ 7 ]));
+true -3
+Primes obtained via Mazur's trick for all forms but 1,2,7,16:
+{@ 2, 7 @}
+{@ 2, 3, 5 @}
+{@ 2, 3, 5 @}
+{@ 2, 7 @}
+{@ 3, 17 @}
+{@ 3, 17 @}
+{@ 2, 5 @}
+{@ @}
+{@ 3 @}
+{@ 5 @}
+{@ 2, 5, 19 @}
+{@ 3 @}
+{@ 5 @}
+{@ 5, 19 @}
+The form 16 is discarded using PARI/GP (see 'Case19.gp').
+
+\\==================================CASE 19 PARI/GP=====================================
+
+read("Cased19.gp")
+Case d=19, discarding form 16:
+Primes obtained via Mazur's trick for form 16:
+%1 = [3 60]
