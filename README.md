@@ -30,6 +30,6 @@ This git repository contains files related to the computational part of the arti
 
 **• pol5.txt** : A file to run Cased19.gp (an output of Cased19.mg).
 
-**• table.gp** :  The code used to compute Table 2.1, in PARI/GP.
+**• Table.mg** :  The code used to compute Table 2.1, in Magma.
 
 **• Outputs.txt** :  A file that shows the outputs of "Casedn.mg/gp", for n=5,7,11,13,15,19. 
