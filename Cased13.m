@@ -2,7 +2,7 @@
 
 print "Case d=13:";
 
-load "mazur.mg";
+load "mazur.m";
 
 /* Character chi */
 
