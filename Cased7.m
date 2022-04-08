@@ -1,6 +1,6 @@
 /* Case d=7 */
 
-load "mazur.mg";
+load "mazur.m";
 
 print "Case d=7:";
 
@@ -317,7 +317,7 @@ end for;
 
 /* Forms attached to each Elliptic curve in Ans[j][i] */
 
-load "ApCoefficients.mg";
+load "ApCoefficients.m";
 
 Primes:=[5,11,13,17,19,23,29,37,53];
 list:=[1,-4,4,1,1,1,4,-4,4,-4,-1,-1,-4,4];
