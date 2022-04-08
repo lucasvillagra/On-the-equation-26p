@@ -32,4 +32,6 @@ This git repository contains files related to the computational part of the arti
 
 **• Table.mg** :  The code used to compute Table 2.1, in Magma.
 
+**• Minimal_model** :  It contains the files "Curves_d=n.sage" for n=5,7,11,15., with the minimal models of the curves that appear in the paper (in Sage).
+
 **• Outputs.txt** :  A file that shows the outputs of "Casedn.mg/gp", for n=5,7,11,13,15,19. 
