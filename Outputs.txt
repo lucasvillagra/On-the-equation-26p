@@ -4,8 +4,8 @@
 
 \\==================================CASE 5===========================================
 
-Loading "Cased5.mg"
-Loading "mazur.mg"
+Loading "Cased5.m"
+Loading "mazur.m"
 Case d=5:
 Forms in Space 2^4*3^2*5^2:
 There are 15 forms, 7 of them having complex multiplication.
@@ -186,7 +186,7 @@ List of curves corresponding to the newform 10 of the Space 2^4*3^3*5^2
         (17635968000*a - 1007769600) over Number Field with defining polynomial
     x^2 + 5 over the Rational Field
 ] 
-Loading "ApCoefficients.mg"
+Loading "ApCoefficients.m"
 List of forms of the Space 2^4*3^2*5^2 with Fourier coefficients a_p, with p in
 [ 11, 13, 29, 41, 61, 89 ]
 that match with the twist of each correspondent elliptic curve: [ 8 ]
@@ -217,9 +217,9 @@ that match with the twist of each correspondent elliptic curve: [ 10 ]
 
 \\==================================CASE 7===========================================
 
-> load "Cased7.mg";
-Loading "Cased7.mg"
-Loading "mazur.mg"
+> load "Cased7.m";
+Loading "Cased7.m"
+Loading "mazur.m"
 Case d=7:
 Forms in Space 2*3*7^2:
 There are 2 forms, 0 of them having complex multiplication.
@@ -311,7 +311,7 @@ List of curves corresponding to the newform 3 of the Space 2*3^3*7^2
         3)*x^2 + (237*a - 421)*x + (-2628*a + 1840) over Number Field with
     defining polynomial x^2 + 7 over the Rational Field
 ] 
-Loading "ApCoefficients.mg"
+Loading "ApCoefficients.m"
 List of forms of the Space 2*3*7^2 with Fourier coefficients a_p, with p in [ 5,
 11, 13, 17, 19, 23, 29, 37, 53 ]
 that match with the twist of each correspondent elliptic curve: [ 1 ]
@@ -330,9 +330,9 @@ that match with the twist of each correspondent elliptic curve: [ 3 ]
 
 \\==================================CASE 11===========================================
 
-> load "Cased11.mg";
-Loading "Cased11.mg"
-Loading "mazur.mg"
+> load "Cased11.m";
+Loading "Cased11.m"
+Loading "mazur.m"
 Case d=11:
 Forms in Space 2^2*3^3*11^2:
 There are 43 forms, 11 of them having complex multiplication.
@@ -425,7 +425,7 @@ List of curves corresponding to the newform 20 of the Space 2^2*3^2*11^2
     Elliptic Curve defined by y^2 + (-4*a - 2)*x*y + (-a - 13)*y = x^3 +
     1/2*(-9*a + 87)*x^2 + 1/2*(63*a - 387)*x + (-465*a + 832) over K
 ] 
-Loading "ApCoefficients.mg"
+Loading "ApCoefficients.m"
 List of forms of the Space 2^2*3^2*11^2 with Fourier coefficients a_p, with p in
 [ 5, 7, 13, 17, 19, 23, 31 ]
 that match with the twist of each correspondent elliptic curve: [ 15 ]
@@ -440,10 +440,10 @@ that match with the twist of each correspondent elliptic curve: [ 20 ]
 
 \\==================================CASE 13===========================================
 
-> load "Cased13.mg";
-Loading "Cased13.mg"
+> load "Cased13.m";
+Loading "Cased13.m"
 Case d=13:
-Loading "mazur.mg"
+Loading "mazur.m"
 Forms in Space 2^4*3*13^2:
 There are 29 forms, 7 of them having complex multiplication.
 Forms with CM: [ 1, 2, 3, 4, 5, 8, 9 ]
@@ -534,9 +534,9 @@ Primes obtained via Mazur's trick for non-CM forms:
 \\==================================CASE 15===========================================
 
 
-> load "Cased15.mg";
-Loading "Cased15.mg"
-Loading "mazur.mg"
+> load "Cased15.m";
+Loading "Cased15.m"
+Loading "mazur.m"
 Case d=15:
 Forms in Space 2*3^5*5^2:
 There are 21 forms
@@ -707,7 +707,7 @@ List of curves corresponding to the newform 6 of the Space 2*3^5*5^2
         (-3978201600000*a + 11424499200000) over Number Field with defining
     polynomial x^2 + 15 over the Rational Field
 ] 
-Loading "ApCoefficients.mg"
+Loading "ApCoefficients.m"
 List of forms of the Space 2*3^5*5^2 with Fourier coefficients a_p, with p in [
 7, 11, 13, 19, 31, 37, 41 ]
 that match with the twist of each correspondent elliptic curve: [ 1 ]
@@ -732,9 +732,9 @@ that match with the twist of each correspondent elliptic curve: [ 6 ]
 \\==================================CASE 19 MAGMA=====================================
 
 
-> load "Cased19.mg";
-Loading "Cased19.mg"
-Loading "mazur.mg"
+> load "Cased19.m";
+Loading "Cased19.m"
+Loading "mazur.m"
 Case d=19:
 Forms in Space 2^2*3*19^2:
 There are 10 forms, 3 of them having complex multiplication.
