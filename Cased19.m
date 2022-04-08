@@ -1,6 +1,6 @@
 /* Case d=19 */
 
-load "mazur.mg";
+load "mazur.m";
 
 print "Case d=19:";
 
