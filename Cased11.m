@@ -6,6 +6,8 @@ print "Case d=11:";
 
 /* Character chi */
 
+/* This function just compure the order of Chi. We use it to run Mazur's trick as Section 1.1. It will be an imput in the function "DiscardPlace" */
+
 Chi:= function(p)
 if KroneckerSymbol(-11,p) eq -1 then
    f:=(3-KroneckerSymbol(p,33)) div 2;
