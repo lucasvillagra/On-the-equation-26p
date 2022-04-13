@@ -6,6 +6,8 @@ load "mazur.m";
 
 /* Character chi */
 
+/* This function just compure the order of Chi. We use it to run Mazur's trick as Section 1.1. It will be an imput in the function "DiscardPlace" */
+
 Chi:=function(p)
 if KroneckerSymbol(-13,p) eq -1 then
     f:=1;
