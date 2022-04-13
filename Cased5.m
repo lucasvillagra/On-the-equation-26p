@@ -6,6 +6,8 @@ print "Case d=5:";
 
 /* Character chi */
 
+/* This function just compure the order of Chi. We use it to run Mazur's trick as Section 1.1. It will be an imput in the function "DiscardPlace" */
+
 Chi:= function(p)
 Eps1:=Generators(DirichletGroup(15,CyclotomicField(4)));
 Eps1:=Eps1[1]*Eps1[2];
