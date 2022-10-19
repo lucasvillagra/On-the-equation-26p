@@ -83,9 +83,9 @@ print "Cannot discard the forms in the second space with parameter: ", BadForms2
 
 print "Primes obtained via Multi-Frey to discard the third newform of the space of level 2^3*3^3:";
 
-/* While comparing with the space of level 2^6*3, associated to the rational Frey elliptic curve */
+/* While comparing with the space of level 2^6*3^2, associated to the rational Frey elliptic curve */
 
-G:=DirichletGroup(2^6*3);
+G:=DirichletGroup(2^6*3^2);
 eps:=Elements(G)[1];
 M:=ModularSymbols(eps,2,1);
 S:=NewSubspace(CuspidalSubspace(M));
