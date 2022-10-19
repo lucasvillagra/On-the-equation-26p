@@ -104,8 +104,7 @@ end for;
 
 /* While comparing with the space of level 2^6*3^3, associated to the rational Frey elliptic curve */
 
-G:=DirichletGroup(2^6*3);
-eps:=Elements(G)[1];
+eps:=Extend(eps,2^6*3^3);
 M:=ModularSymbols(eps,2,1);
 S:=NewSubspace(CuspidalSubspace(M));
 new:=NewformDecomposition(S);
