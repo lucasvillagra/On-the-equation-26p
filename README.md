@@ -6,9 +6,13 @@ This git repository contains files related to the computational part of the arti
 
 **• mazur.m** : To run Mazur's trick, in Magma.
 
+**• Multi-Frey.m** : Multi-Frey code to the case d=4,  in Magma.
+
 **• ApCoefficients.m** : To compute coefficients of newforms, in Magma.
 
 **• Ellenberg.gp** : To compute Ellenberg's bounds for Proposition 3.2, in PARI/GP.
+
+**• Cased4.m** :  The code used in Theorem A.8, in Magma.
 
 **• Cased5.m** :  The code used in Theorem 3.3, in Magma.
 
