@@ -23,7 +23,7 @@ end function;
 
 /* First space */
 
-print "Forms in Space 2^4*3^2*5^2:";
+print "Forms in Space 2^4*3:";
 level1:="2^4*3";
 G:=DirichletGroup(2^4*3);
 eps:=Elements(G)[6];
@@ -52,7 +52,7 @@ print "Cannot discard the forms in the first space with parameter: ", BadForms1;
 
 /* Second space */
 
-print "Forms in Space 2^4*3^3*5^2:";
+print "Forms in Space 2^4*3^3:";
 level2:="2^4*3^3";
 eps2:=Extend(eps,2^4*3^3);
 M2:=ModularSymbols(eps2,2,1);
@@ -78,6 +78,56 @@ end if;
 end for;
 
 print "Cannot discard the forms in the second space with parameter: ", BadForms2;
+
+/* Mazur's trick for the newforms attached to the rational elliptic curve F_(a,b,c) */
+
+print "Primes obtained via Mazur's trick for newforms attached to the rational elliptic curve:";
+
+/* First space */
+
+print "Forms in Space 2^6*3^2:";
+G:=DirichletGroup(2^6*3^2);
+eps:=Elements(G)[1];
+M:=ModularSymbols(eps,2,1);
+S:=NewSubspace(CuspidalSubspace(M));
+new:=NewformDecomposition(S);
+
+print "There are", #new, "forms";
+
+BadForms1:=[];
+for i in [1..#new] do         
+MZ:=DiscardPlace(4,eps,Chi,new,i,1,20);
+print(MZ);
+if MZ eq {@ 0 @} then
+   BadForms1:=Append(BadForms1,i);
+end if;
+end for;
+
+
+print "Cannot discard the forms in the first space with parameter: ", BadForms1;
+
+
+/* Second space */
+
+print "Forms in Space 2^6*3^3:";
+eps:=Extend(eps,2^6*3^3);
+M:=ModularSymbols(eps,2,1);
+S:=NewSubspace(CuspidalSubspace(M));
+new:=NewformDecomposition(S);
+print "There are", #new, "forms";
+
+print "Primes obtained via Mazur's trick for newforms attached to the rational elliptic curve:";
+BadForms2:=[];
+for i in [1..#new] do         
+MZ:=DiscardPlace(4,eps,Chi,new,i,1,20);
+print(MZ);
+if MZ eq {@ 0 @} then
+   BadForms1:=Append(BadForms2,i);
+end if;
+end for;
+
+print "Cannot discard the forms in the second space with parameter: ", BadForms2;
+
 
 /* Multi-Frey  */
 
