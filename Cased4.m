@@ -100,7 +100,7 @@ for i in [1..#new] do
 MZ:=DiscardPlace4(new,i,1,50);
 print(MZ);
 if MZ eq {@ 0 @} then
-   BadForms1:=Append(BadForms,i);
+   BadForms:=Append(BadForms,i);
 end if;
 end for;
 
@@ -124,7 +124,7 @@ for i in [1..#new] do
 MZ:=DiscardPlace4(new,i,1,50);
 print(MZ);
 if MZ eq {@ 0 @} then
-   BadForms1:=Append(BadForms,i);
+   BadForms:=Append(BadForms,i);
 end if;
 end for;
 
