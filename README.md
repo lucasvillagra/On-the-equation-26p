@@ -28,14 +28,18 @@ This git repository contains files related to the computational part of the arti
 
 **• Cased19.gp** :  The code used in Theorem 3.8, in PARI/GP.
 
-**• coef5.txt** :  A file to run Cased19.gp (an output of Cased19.mg).
+**• coef5.txt** :  A file to run Cased19.gp (an output of Cased19.m).
 
-**• coef11.txt** :  A file to run Cased19.gp (an output of Cased19.mg).
+**• coef11.txt** :  A file to run Cased19.gp (an output of Cased19.m).
 
-**• pol5.txt** : A file to run Cased19.gp (an output of Cased19.mg).
+**• pol5.txt** : A file to run Cased19.gp (an output of Cased19.m).
 
 **• Table.m** :  The code used to compute Table 2.1, in Magma.
 
-**• Minimal_model** :  It contains the files "Curves_d=n.sage" for n=5,7,11,15., with the minimal models of the curves that appear in the paper (in Sage).
+**• Minimal_model** :  This folder contains the files "Curves_d=n.sage" for n=5,7,11,15., with the minimal models of the curves that appear in the paper (in Sage).
+
+**• Minimal_model** :  This folder contains the files "Multi-Frey.m" and "Codesd4.m", needed to run the file "Cased4.m", in Magma.
+
+**• Cased4.m** : The code used in Theorem A.8, in Magma.
 
 **• Outputs.txt** :  A file that shows the outputs of "Casedn.m/gp", for n=5,7,11,13,15,19. 
