@@ -94,17 +94,18 @@ new:=NewformDecomposition(S);
 
 print "There are", #new, "forms";
 
-BadForms1:=[];
+
+BadForms:=[];
 for i in [1..#new] do         
-MZ:=DiscardPlace(4,eps,Chi,new,i,1,20);
+MZ:=DiscardPlace4(new,i,1,50);
 print(MZ);
 if MZ eq {@ 0 @} then
-   BadForms1:=Append(BadForms1,i);
+   BadForms1:=Append(BadForms,i);
 end if;
 end for;
 
 
-print "Cannot discard the forms in the first space with parameter: ", BadForms1;
+print "Cannot discard the forms in the first space with parameter: ", BadForms;
 
 
 /* Second space */
@@ -117,16 +118,17 @@ new:=NewformDecomposition(S);
 print "There are", #new, "forms";
 
 print "Primes obtained via Mazur's trick for newforms attached to the rational elliptic curve:";
-BadForms2:=[];
+
+BadForms:=[];
 for i in [1..#new] do         
-MZ:=DiscardPlace(4,eps,Chi,new,i,1,20);
+MZ:=DiscardPlace4(new,i,1,50);
 print(MZ);
 if MZ eq {@ 0 @} then
-   BadForms1:=Append(BadForms2,i);
+   BadForms1:=Append(BadForms,i);
 end if;
 end for;
 
-print "Cannot discard the forms in the second space with parameter: ", BadForms2;
+print "Cannot discard the forms in the second space with parameter: ", BadForms;
 
 
 /* Multi-Frey  */
