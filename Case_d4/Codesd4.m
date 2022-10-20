@@ -55,15 +55,3 @@ print "Cannot discard the form with parameter: ", j;
 return({0});
 end if;
 end function;
-
-
-BadForms:=[];
-for i in [1..#new] do         
-MZ:=DiscardPlace4(new,i,1,50);
-print(MZ);
-if MZ eq {@ 0 @} then
-   BadForms1:=Append(BadForms,i);
-end if;
-end for;
-
-
