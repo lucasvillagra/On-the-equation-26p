@@ -56,13 +56,19 @@ for a in [p..2*p] do
                 if  not IsDivisibleBy(a^2+4*b^6,p) then 
                     coefE:=TraceOfFrobenius(EllipticCurve([6*b*r,0,-4*4*(a+b^3*r),0,0]),Factorization(I)[1][1]);
                     if Case eq 1 then
-                          aux1:=Numerator(Norm(Norm(Norm(Norm(coefg-coefE*Root^pp)))));                    
+                          aux1:=Numerator(Norm(Norm(Norm(Norm(coefg-coefE*Root^pp))))); 
+                          if  IsDivisibleBy(a^2+4*b^6,p) then
+                          coefF:=TraceOfFrobenius(EllipticCurve([0,0,0,3*4*b^2,2*4*a]),p);
+                          aux2:=Numerator(Norm(Norm(Norm(Norm(coefF-coeff)))));
+                          else
+                          aux2:=Numerator(Norm(coeff^2-(p+1)^2));
+                          end if;
                     else
                           aux1:=Numerator(Norm(Norm(Norm(Norm(coefg^2-coefE*Root^pp-2*p*eps(p))))));
+                          coefF:=TraceOfFrobenius(EllipticCurve([0,0,0,3*4*b^2,2*4*a]),p);
+                          aux2:=Numerator(Norm(Norm(Norm(Norm(coefF-coeff)))));
                     end if;
                     
-                    coefF:=TraceOfFrobenius(EllipticCurve([0,0,0,3*4*b^2,2*4*a]),p);
-                    aux2:=Numerator(Norm(Norm(Norm(Norm(coefF-coeff)))));
                     if Gcd(aux1,aux2) eq 0 then
                         Bad:=Append(Bad,i);
                     else
@@ -72,12 +78,19 @@ for a in [p..2*p] do
                     if Order ge 2 then
                         coefE:=TraceOfFrobenius(EllipticCurve([6*b*r,0,-4*4*(a+b^3*r),0,0]),Factorization(I)[1][1]);
                         if Case eq 1 then
-                              aux1:=Numerator(Norm(Norm(Norm(Norm(coefg+coefE*Root^pp)))));                    
+                              aux1:=Numerator(Norm(Norm(Norm(Norm(coefg+coefE*Root^pp))))); 
+                              if  IsDivisibleBy(a^2+4*b^6,p) then
+                              coefF:=TraceOfFrobenius(EllipticCurve([0,0,0,3*4*b^2,2*4*a]),p);
+                              aux2:=Numerator(Norm(Norm(Norm(Norm(coefF-coeff)))));
+                              else
+                                 aux2:=Numerator(Norm(coeff^2-(p+1)^2));
+                              end if;                              
                         else
                               aux1:=Numerator(Norm(Norm(Norm(Norm(coefg^2+coefE*Root^pp-2*p*eps(p))))));
+                              coefF:=TraceOfFrobenius(EllipticCurve([0,0,0,3*4*b^2,2*4*a]),p);
+                              aux2:=Numerator(Norm(Norm(Norm(Norm(coefF-coeff)))));
                         end if;
-                    coefF:=TraceOfFrobenius(EllipticCurve([0,0,0,3*4*b^2,2*4*a]),p);
-                    aux2:=Numerator(Norm(Norm(Norm(Norm(coefF-coeff)))));
+
                     if Gcd(aux1,aux2) eq 0 then
                         Bad:=Append(Bad,i);
                     else
